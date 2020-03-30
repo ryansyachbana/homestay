@@ -1,0 +1,517 @@
+html {
+  position: relative;
+}
+body {
+  line-height: 2;
+  color: #f5f6fa;
+  font-weight: 300;
+  font-size: 1.5rem; 
+  background-color: white;
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+
+::-moz-selection {
+  background: #000;
+  color: #fff; }
+
+::selection {
+  background: #000;
+  color: #fff; }
+
+/*.container {
+    padding: 1em 1em;
+    display: run-in;
+}*/
+.navbar{
+  transition: 0.9s;
+}
+
+/*#navbar1{
+  background-color: black;
+}*/
+
+.navbar:hover{
+  transition: 0.9s;
+  opacity: 0.6;
+  /*padding: 0px;*/
+  /*list-style: none; */
+  width: 100%;
+  display: unset;
+  background-color: black;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+/*.dropdown {
+  float: left;
+  overflow: hidden;
+}*/
+
+.dropdown .dropdown-toggle {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar .navbar-right a:hover {
+  background-color: unset;
+}
+.dropdown .dropdown-toggle:hover{
+  background-color: #e74c3c;
+ }
+
+/*.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}*/
+
+.dropdown-menu a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+/*
+.dropdown-menu a:hover {
+  background-color: #ddd;
+}
+*/
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.thumbnail{
+  position: relative;
+  overflow: inherit;
+  display: grid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*.caption{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(67,196,236,0.5);
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+  display: none;
+  text-align: center;
+  color: #fff !important;
+  z-index: 2;
+}*/
+.text-block {
+  position: absolute;
+  background-color: #34495e;
+  opacity: 0.8;
+  color: white;
+  top: 105px;
+  left: 100px;
+  padding-left: 1px;
+  padding-bottom: 38px;
+  padding-right: 1px;
+  padding-top: 20px;
+}
+form{
+  padding-bottom: 80px;
+}
+/*form .text{
+  padding-bottom: 5px;
+}*/
+
+.thumbnail img .img-responsive {
+  width: 200px;
+  border: unset;
+}
+.about_us  hr{
+  width: 200px;
+  border-top: 3px solid;
+  border-color: white;
+}
+.service hr {
+  width: 150px;
+  border-top: 3px solid;
+  border-color: #2d3436;
+}
+.profil hr {
+  width: 150px;
+  border-top: 3px solid;
+  border-color: #2d3436;
+}
+.destinasi hr {
+  width: 300px;
+  border-top: 3px solid;
+  border-color: #2d3436;
+}
+.daftar_homestay{
+  min-width: 100%;
+}
+.homestay{
+  min-height: 300px;
+  background-color: #2d3436;
+  border-style: unset;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.service{
+  /*background-image: url('assets/img/tampilan_borobudur.jpg');*/
+  /*height: 500px;*/
+  min-height: 300px;
+  background-color: #2d3436;
+  /*background-attachment: fixed;*/
+  /*background-position: center;*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: cover;*/
+  border-style: unset;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+/*.parallax {
+  background-image: url('assets/img/tampilan_borobudur.jpg');
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+.profil{
+  min-height: 300px;
+  background-color: #ecf0f1;
+  border-style: unset;
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+.destinasi{
+  min-height: 300px;
+  background-color: #2d3436; 
+  border-style: unset;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+.about_us{
+  min-height: 300px;
+  background-color: white; 
+  border-style: unset;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  color: #2d3436;
+}
+.footer{
+  min-height: 300px;
+  background-color: #2d3436;
+  border-style: unset;
+  /*padding-top: 80px;*/
+  /*padding-bottom: 50px;*/
+}
+section .thumbnail  {
+  border-color: #16a085;
+  border-width: 0;
+  border-style: solid;
+}
+section {
+  min-height: 600px;
+}
+
+.glyphicon-star{
+  color : #f1c40f;
+}
+.btn-danger{
+  font-size: 25px; 
+  text-align: center;
+}
+.btn-info{
+  font-size: 25px; 
+  text-align: center;
+}
+.btn-success{
+  font-size: 25px; 
+  text-align: center;
+}
+.btn-warning{
+  font-size: 20px; 
+  text-align: center;
+}
+
+.form-control{
+  border: 20px;
+}
+
+.text{
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #b2bec3;
+    text-shadow: 3px 3px 0px #dfe6e9, 5px 5px 0px rgba(0, 0, 0, 1);
+}
+form{
+  padding-top: 130px;
+}
+img {
+  justify-content: center;
+}
+#wrapper
+{
+  width: 100%;
+  background: #bdc3c7;
+  padding: 100px;
+}
+#page-wrapper
+{
+  padding: 10px;
+  background: #bdc3c7;
+}
+#page-inner
+{
+  padding: 15px;
+  background: #ecf0f1;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: 3px; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #2c3e50; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  font-size: 18px; /* Increase font size */
+  border-radius: 30px; /* Rounded corners */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+.thumbnail .hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ button .btn-danger:hover{
+  opacity: 5;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 250px;
+  height: 250px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2d3436;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/* carousel */
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }
+    
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) { 
+    
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.pemisah{
+  padding-bottom: 100px;
+  color: black;
+}
+.b{
+  color: #2d3436;
+}
+.c{
+  color: #2d3436;
+}
+.d{
+  color: #2d3436;
+}
+#page-i{
+  min-height: 650px;
+  background-color: #ecf0f1;
+}
+#page-u{
+  background-color: #2d3436; 
+  width: 100%;
+  padding: 100px;
+}
+/*.modal{
+  border: unset background-color;
+  border-style: solid;
+  padding-top: 100px;
+}
+.modal-dialog{
+  border : unset;
+}
+.panel-primary{
+  background-color: currentColor;
+  opacity: 0.8;
+}
+.panel-heading{
+  height: 50px;
+  border-style: none;
+}
+
+.panel-heading button{
+  color: solid black;
+  font-size: 30px;
+}
+.panel-title{
+  font-size: 25px;
+}
+.panel-body form{
+  padding: 10px;
+}
+.panel-body h4{
+  color : white;
+}
+
+.modal-footer button{
+  font-size: 20px;
+}*/
